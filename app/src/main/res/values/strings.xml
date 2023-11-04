@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">result</string>
+    <string name="open">Open</string>
+    <string name="gallery">Gallery</string>
+    <string name="save">Save</string>
+    <string name="image_saved">Imagen guardada en la galeria</string>
+</resources>
