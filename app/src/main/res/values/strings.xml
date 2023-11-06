@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">result</string>
-    <string name="open">Open</string>
-    <string name="gallery">Gallery</string>
-    <string name="save">Save</string>
+    <string name="open">Camara</string>
+    <string name="gallery">Galeria</string>
+    <string name="save">Registrar</string>
     <string name="image_saved">Imagen guardada en la galeria</string>
+    <string name="autorizacion">Autorizado para el registro</string>
+    <string name="title_register">Registro de usuario</string>
 </resources>

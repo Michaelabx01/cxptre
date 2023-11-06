@@ -16,7 +16,9 @@ import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
     private val CAMERA_REQUEST_CODE = 101
-    private val GALLERY_REQUEST_CODE = 102 // Agrega esta constante
+    private val GALLERY_REQUEST_CODE = 102
+    private var imageBase64: String? = null
+
 
     private val takePicture = registerForActivityResult(ActivityResultContracts.TakePicturePreview()) { result ->
         if (result != null) {
