@@ -94,17 +94,19 @@
 
     </LinearLayout>
 
+
     <ImageView
         android:id="@+id/img"
-        android:layout_width="315dp"
-        android:layout_height="234dp"
+        android:layout_width="218dp"
+        android:layout_height="231dp"
         android:layout_marginTop="3dp"
         android:src="@drawable/ic_foto"
         app:layout_constraintBottom_toBottomOf="@id/h95"
         app:layout_constraintEnd_toEndOf="@id/v95"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@id/v05"
-        app:layout_constraintTop_toBottomOf="@id/ll1" />
-
+        app:layout_constraintTop_toBottomOf="@id/ll1"
+        app:layout_constraintVertical_bias="0.458" />
 
     <Button
         android:id="@+id/save_to_gallery"
@@ -124,21 +126,23 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_width="220dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="116dp"
         android:text="@string/title_register"
+        android:gravity="center"
         android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintEnd_toStartOf="@+id/v95"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@+id/v05"
         app:layout_constraintTop_toTopOf="@+id/h05" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
         android:layout_marginTop="32dp"
+        android:gravity="center"
         android:text="@string/autorizacion"
         android:textColor="#24B743"
         android:textSize="18sp"
